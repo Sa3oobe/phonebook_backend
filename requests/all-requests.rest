@@ -7,22 +7,14 @@ Content-Type: application/json
 }
 ###
 
-GET http://localhost:3001/api/persons/5 HTTP/1.1
-
-###
-
 GET http://localhost:3001/info HTTP/1.1
 
 ###
 
-DELETE  http://localhost:3001/api/persons/2 HTTP/1.1
+DELETE  http://localhost:3001/api/persons/64b6fbe864a6cbb7ca7a654b HTTP/1.1
 
 ###
 
-POST http://localhost:3001/api/persons HTTP/1.1
-content-type: application/json
+GET http://localhost:3001/api/persons HTTP/1.1
 
-{
-    "name": "do",
-    "number": "456789-200000001"
-}
+###
